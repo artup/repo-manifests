@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/artup" />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-j="4" />
+
+  <project name="stuffs" remote="github" path="github/stuffs"/>
+  <project name="artup.github.io" remote="github" path="github/artup.github.io"/>
+
+</manifest>
